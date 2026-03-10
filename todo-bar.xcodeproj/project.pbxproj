@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 92D0DE1D2F5FEE5A008E9B70;
 			remoteInfo = "todo-bar";
 		};
-		92D0DE362F5FEE5B008E9B70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92D0DE162F5FEE5A008E9B70 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92D0DE1D2F5FEE5A008E9B70;
-			remoteInfo = "todo-bar";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92D0DE1E2F5FEE5A008E9B70 /* todo-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D0DE1E2F5FEE5A008E9B70 /* TodoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodoBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D0DE2B2F5FEE5B008E9B70 /* todo-barTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "todo-barTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92D0DE352F5FEE5B008E9B70 /* todo-barUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "todo-barUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		92D0DE2E2F5FEE5B008E9B70 /* todo-barTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "todo-barTests";
-			sourceTree = "<group>";
-		};
-		92D0DE382F5FEE5B008E9B70 /* todo-barUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "todo-barUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D0DE322F5FEE5B008E9B70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				92D0DE202F5FEE5A008E9B70 /* todo-bar */,
 				92D0DE2E2F5FEE5B008E9B70 /* todo-barTests */,
-				92D0DE382F5FEE5B008E9B70 /* todo-barUITests */,
 				92D0DE1F2F5FEE5A008E9B70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +64,8 @@
 		92D0DE1F2F5FEE5A008E9B70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92D0DE1E2F5FEE5A008E9B70 /* todo-bar.app */,
+				92D0DE1E2F5FEE5A008E9B70 /* TodoBar.app */,
 				92D0DE2B2F5FEE5B008E9B70 /* todo-barTests.xctest */,
-				92D0DE352F5FEE5B008E9B70 /* todo-barUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +92,7 @@
 			packageProductDependencies = (
 			);
 			productName = "todo-bar";
-			productReference = 92D0DE1E2F5FEE5A008E9B70 /* todo-bar.app */;
+			productReference = 92D0DE1E2F5FEE5A008E9B70 /* TodoBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 		92D0DE2A2F5FEE5B008E9B70 /* todo-barTests */ = {
@@ -140,29 +118,6 @@
 			productReference = 92D0DE2B2F5FEE5B008E9B70 /* todo-barTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92D0DE342F5FEE5B008E9B70 /* todo-barUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92D0DE452F5FEE5B008E9B70 /* Build configuration list for PBXNativeTarget "todo-barUITests" */;
-			buildPhases = (
-				92D0DE312F5FEE5B008E9B70 /* Sources */,
-				92D0DE322F5FEE5B008E9B70 /* Frameworks */,
-				92D0DE332F5FEE5B008E9B70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92D0DE372F5FEE5B008E9B70 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				92D0DE382F5FEE5B008E9B70 /* todo-barUITests */,
-			);
-			name = "todo-barUITests";
-			packageProductDependencies = (
-			);
-			productName = "todo-barUITests";
-			productReference = 92D0DE352F5FEE5B008E9B70 /* todo-barUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 26.3;
 					};
 					92D0DE2A2F5FEE5B008E9B70 = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = 92D0DE1D2F5FEE5A008E9B70;
-					};
-					92D0DE342F5FEE5B008E9B70 = {
 						CreatedOnToolsVersion = 26.3;
 						TestTargetID = 92D0DE1D2F5FEE5A008E9B70;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				92D0DE1D2F5FEE5A008E9B70 /* todo-bar */,
 				92D0DE2A2F5FEE5B008E9B70 /* todo-barTests */,
-				92D0DE342F5FEE5B008E9B70 /* todo-barUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92D0DE292F5FEE5B008E9B70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92D0DE332F5FEE5B008E9B70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D0DE312F5FEE5B008E9B70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = 92D0DE1D2F5FEE5A008E9B70 /* todo-bar */;
 			targetProxy = 92D0DE2C2F5FEE5B008E9B70 /* PBXContainerItemProxy */;
-		};
-		92D0DE372F5FEE5B008E9B70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92D0DE1D2F5FEE5A008E9B70 /* todo-bar */;
-			targetProxy = 92D0DE362F5FEE5B008E9B70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -394,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "todo-bar/todo-bar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -403,14 +335,19 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoBar;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "TodoBar needs calendar access because Reminders data is brokered through EventKit on macOS.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "TodoBar needs access to your reminders so it can show the selected list name and incomplete task count in the menu bar.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.todo-bar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoBar;
+				PRODUCT_MODULE_NAME = todo_bar;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -426,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "todo-bar/todo-bar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -435,14 +373,19 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoBar;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "TodoBar needs calendar access because Reminders data is brokered through EventKit on macOS.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "TodoBar needs access to your reminders so it can show the selected list name and incomplete task count in the menu bar.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.todo-bar";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoBar;
+				PRODUCT_MODULE_NAME = todo_bar;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -470,7 +413,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todo-bar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todo-bar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoBar";
 			};
 			name = Debug;
 		};
@@ -491,45 +434,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todo-bar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/todo-bar";
-			};
-			name = Release;
-		};
-		92D0DE462F5FEE5B008E9B70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M9243Z8G4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.todo-barUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "todo-bar";
-			};
-			name = Debug;
-		};
-		92D0DE472F5FEE5B008E9B70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4M9243Z8G4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.todo-barUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "todo-bar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoBar";
 			};
 			name = Release;
 		};
@@ -559,15 +464,6 @@
 			buildConfigurations = (
 				92D0DE432F5FEE5B008E9B70 /* Debug */,
 				92D0DE442F5FEE5B008E9B70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92D0DE452F5FEE5B008E9B70 /* Build configuration list for PBXNativeTarget "todo-barUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92D0DE462F5FEE5B008E9B70 /* Debug */,
-				92D0DE472F5FEE5B008E9B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
