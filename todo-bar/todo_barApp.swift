@@ -53,7 +53,7 @@ private enum MenuBarBadgeImageRenderer {
         let rect = NSRect(origin: .zero, size: size)
         let insetRect = rect.insetBy(dx: 1.75, dy: 1.75)
         let circlePath = NSBezierPath(ovalIn: insetRect)
-        let badgeColor = badgeColor(for: viewState)
+        let badgeColor = templateInkColor
         circlePath.lineWidth = 1.6
         badgeColor.setStroke()
         circlePath.stroke()
@@ -80,20 +80,11 @@ private enum MenuBarBadgeImageRenderer {
         )
         text.draw(in: textRect)
 
-        image.isTemplate = false
+        image.isTemplate = true
         return image
     }
 
-    private static func badgeColor(for viewState: TodoBarViewState) -> NSColor {
-        switch viewState {
-        case let .ready(_, count):
-            return count == 0 ? .secondaryLabelColor : .labelColor
-        case .loading, .noSelection, .missingList:
-            return .secondaryLabelColor
-        case .accessDenied, .error:
-            return .systemOrange
-        }
-    }
+    private static let templateInkColor = NSColor.black
 
     private static func font(for viewState: TodoBarViewState) -> NSFont {
         let text = viewState.menuBarBadgeText
